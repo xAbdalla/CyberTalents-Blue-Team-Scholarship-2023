@@ -5,6 +5,10 @@ Skills of collecting information out of cyberspace that has been previously anal
 
 ## Solution
 
+<p align="center">
+    <img src="./img.png">
+</p>
+
 ### Flag
 ```
 flag{Threat Intelligence}

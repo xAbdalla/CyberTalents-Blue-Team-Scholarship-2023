@@ -5,6 +5,10 @@ Special kind of cybersecurity competition designed to challenge its participants
 
 ## Solution
 
+<p align="center">
+    <img src="./img.png">
+</p>
+
 ### Flag
 ```
 CTF
