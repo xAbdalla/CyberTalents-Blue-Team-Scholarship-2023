@@ -1,12 +1,15 @@
-# CyberTalents Blue Team Scholarship 2023 Labs ![](https://geps.dev/progress/100)
+# CyberTalents Blue Team Scholarship 2023 Labs ![Progress](https://geps.dev/progress/100 "Progress")
 
 During my three-month learning journey, I will be studying two advanced cybersecurity courses on CyberTalents platform acquiring hands-on experience, and learning from top instructors in the field:
+
 * CyberTalents Certified SOC Analyst
+
 * CyberTalents Certified Threat Hunter
 
-CyberTalents Blue Team Scholarship 2023 <a href="https://cybertalents.com/learn/cybertalents-blue-team-scholarship-2023" target="_blank">Page</a>.
+CyberTalents Blue Team Scholarship 2023 [Page](https://cybertalents.com/learn/cybertalents-blue-team-scholarship-2023)
 
-## SOC Analyst Labs ![](https://geps.dev/progress/100)
+## SOC Analyst Labs ![SOC Analyst Labs Progress](https://geps.dev/progress/100 "SOC Analyst Labs Progress")
+
 | Challenges | Lesson | Category | Difficulty | Points | Completed |
 |-|-|-|-|-|-|
 | [Competition](Units/SOC-Analyst/Competition/Readme.md) | Introduction to CTF | General Information | Basic | 25 | :white_check_mark: |
@@ -26,7 +29,8 @@ CyberTalents Blue Team Scholarship 2023 <a href="https://cybertalents.com/learn/
 | [MEGO](Units/SOC-Analyst/MEGO/Readme.md) | Digital Forensics | Digital Forensics | Medium | 100 | :white_check_mark: |
 | [Phisher](Units/SOC-Analyst/Phisher/Readme.md) | Digital Forensics | Digital Forensics | Medium | 100 | :white_check_mark: |
 
-## Threat Hunter Labs ![](https://geps.dev/progress/100)
+## Threat Hunter Labs ![Threat Hunter Labs Progress](https://geps.dev/progress/100 "Threat Hunter Labs Progress")
+
 | Challenges | Lesson | Category | Difficulty | Points | Completed |
 |-|-|-|-|-|-|
 | [APT](Units/Threat-Hunter/APT/Readme.md) | Introduction to Cyber Threat Hunting | General Information | Easy | 50 | :white_check_mark: |
@@ -49,4 +53,3 @@ CyberTalents Blue Team Scholarship 2023 <a href="https://cybertalents.com/learn/
 | [New Account](Units/Threat-Hunter/New-Account/Readme.md) | Hunting Windows Events and Logs | Digital Forensics | Easy | 50 | :white_check_mark: |
 | [Active Attacks](Units/Threat-Hunter/Active-Attacks/Readme.md) | Hunting Windows Events and Logs | Digital Forensics | Medium | 100 | :white_check_mark: |
 | [Brut3 Forc3](Units/Threat-Hunter/Brut3-Forc3/Readme.md) | Hunting Windows Events and Logs | Digital Forensics | Medium | 100 | :white_check_mark: |
-
