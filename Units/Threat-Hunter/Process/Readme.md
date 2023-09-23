@@ -7,6 +7,10 @@ What is the name of the Windows process that takes care of security policy for t
 
 ## Solution
 
+<p align="center">
+    <img src="./1.png">
+</p>
+
 ### Flag
 ```
 FLAG{lsass.exe}

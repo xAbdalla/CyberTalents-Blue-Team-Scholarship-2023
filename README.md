@@ -10,7 +10,7 @@ CyberTalents Blue Team Scholarship 2023 [Page](https://cybertalents.com/learn/cy
 
 ## SOC Analyst Labs ![SOC Analyst Labs Progress](https://geps.dev/progress/100 "SOC Analyst Labs Progress")
 
-| Challenges | Lesson | Category | Difficulty | Points | Completed | Writeup |
+| Challenges | Lesson | Category | Difficulty | Points | Flag | Writeup |
 |-|-|-|-|-|-|-|
 | [Competition](Units/SOC-Analyst/Competition/Readme.md) | Introduction to CTF | General Information | Basic | 25 | :white_check_mark: | :white_check_mark: |
 | [CVE-Number](Units/SOC-Analyst/CVE-Number/Readme.md) | Introduction to Cybersecurity | General Information | Basic | 25 | :white_check_mark: | :white_check_mark: |
@@ -31,7 +31,7 @@ CyberTalents Blue Team Scholarship 2023 [Page](https://cybertalents.com/learn/cy
 
 ## Threat Hunter Labs ![Threat Hunter Labs Progress](https://geps.dev/progress/100 "Threat Hunter Labs Progress")
 
-| Challenges | Lesson | Category | Difficulty | Points | Completed | Writeup |
+| Challenges | Lesson | Category | Difficulty | Points | Flag | Writeup |
 |-|-|-|-|-|-|-|
 | [APT](Units/Threat-Hunter/APT/Readme.md) | Introduction to Cyber Threat Hunting | General Information | Easy | 50 | :white_check_mark: | :x: |
 | [Kill Chain](Units/Threat-Hunter/Kill-Chain/Readme.md) | Threat Hunting Terminologies | General Information | Basic | 25 | :white_check_mark: | :x: |
@@ -46,7 +46,7 @@ CyberTalents Blue Team Scholarship 2023 [Page](https://cybertalents.com/learn/cy
 | [Zeek-Zag](Units/Threat-Hunter/Zeek-Zag/Readme.md) | Introduction to Zeek | Network Security | Medium | 100 | :white_check_mark: | :x: |
 | [BaseLine](Units/Threat-Hunter/BaseLine/Readme.md) | Hunting with Powershell | Digital Forensics | Easy | 50 | :white_check_mark: | :x: |
 | [Arson](Units/Threat-Hunter/Arson/Readme.md) | Hunting with Powershell | Network Security | Medium | 100 | :white_check_mark: | :x: |
-| [Process](Units/Threat-Hunter/Process/Readme.md) | Windows Processes | General Information | Basic | 25 | :white_check_mark: | :x: |
+| [Process](Units/Threat-Hunter/Process/Readme.md) | Windows Processes | General Information | Basic | 25 | :white_check_mark: | :white_check_mark: |
 | [W4nna Fl4g](Units/Threat-Hunter/W4nna-Fl4g/Readme.md) | Windows Processes | Digital Forensics | Medium | 100 | :white_check_mark: | :x: |
 | [Masqur4de](Units/Threat-Hunter/Masqur4de/Readme.md) | Windows Processes | Digital Forensics | Medium | 100 | :white_check_mark: | :x: |
 | [Scanner](Units/Threat-Hunter/Scanner/Readme.md) | Hunting Windows Events and Logs | Digital Forensics | Easy | 50 | :white_check_mark: | :x: |
