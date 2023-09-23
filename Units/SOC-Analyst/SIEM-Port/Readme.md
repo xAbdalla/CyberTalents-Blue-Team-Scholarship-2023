@@ -5,6 +5,10 @@ Your company planning to use Qradar as SIEM tool and you planning to receives lo
 
 ## Solution
 
+<p align="center">
+    <img src="./1.png">
+</p>
+
 ### Flag
 ```
 flag{514}
