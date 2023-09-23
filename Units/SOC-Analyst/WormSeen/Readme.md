@@ -18,13 +18,13 @@ You decided to escalate the case to IR team to further investigate and answer th
 
 First of all, we need to extract the zip file using the password **infected**. from that we can find an excutable file called **worm.exe**.
 
-Let's do some basic analysis on this file. I used a program called **[Detect It Easy](https://github.com/horsicq/Detect-It-Easy)** for determining types of file.
+Let's do some basic analysis on this file. I used a program called **[Detect It Easy](https://github.com/horsicq/Detect-It-Easy)** for determining type of the file.
  
 <p align="center">
     <img src="./1.png">
 </p>
 
-As we can see, this file has been packed using **PyINstaller**. So, we need to unpack it using **[PyInstaller Extractor](https://github.com/extremecoders-re/pyinstxtractor)**.
+As we can see, this file has been packed using **PyInstaller**. We need to unpack it using **[PyInstaller Extractor](https://github.com/extremecoders-re/pyinstxtractor)**.
 
 <p align="center">
     <img src="./2.png">
