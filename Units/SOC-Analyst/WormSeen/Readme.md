@@ -1,9 +1,11 @@
 # WormSeen
 
 ## Description
+
 OOur EDR has flagged suspicious traffic from production endpoint, after reviewing the respective process generating the traffic and another alert has been alerted “Worm Detected” in our SIEM
 
-You decided to escalate the case to IR team to further investigate and answer the below questions 
+You decided to escalate the case to IR team to further investigate and answer the below questions
+
 * What is the range of worm spreading (x.x.x.x/xx) ?
 * Destination target port of the attack (XX)?
 * How many hosts might be affected by the worm (XX)?
@@ -11,7 +13,9 @@ You decided to escalate the case to IR team to further investigate and answer th
 **Flag format: flag{Answer1:Answer2:Answer3}.**
 
 ## Files
+
 [worm.zip](./worm.zip)
+
 * Password: **infected**
 
 ## Solution
@@ -19,32 +23,22 @@ You decided to escalate the case to IR team to further investigate and answer th
 First of all, we need to extract the zip file using the password **infected**. from that we can find an excutable file called **worm.exe**.
 
 Let's do some basic analysis on this file. I used a program called **[Detect It Easy](https://github.com/horsicq/Detect-It-Easy)** for determining type of the file.
- 
-<p align="center">
-    <img src="./1.png">
-</p>
+
+<p align="center"><img src="./1.png"></p>
 
 As we can see, this file has been packed using **PyInstaller**. We need to unpack it using **[PyInstaller Extractor](https://github.com/extremecoders-re/pyinstxtractor)**.
 
-<p align="center">
-    <img src="./2.png">
-</p>
+<p align="center"><img src="./2.png"></p>
 
-Now, we can see the unpacked files in the **worm.exe_extracted** folder. 
+Now, we can see the unpacked files in the **worm.exe_extracted** folder.
 
-<p align="center">
-    <img src="./3.png">
-</p>
+<p align="center"><img src="./3.png"></p>
 
 Let's see the code in the **worm.pyc** file. To do that we need to uncompyle the file using **[Decompyle++](https://github.com/zrax/pycdc)**.
 
-<p align="center">
-    <img src="./4.png">
-</p>
+<p align="center"><img src="./4.png"></p>
 
-<p align="center">
-    <img src="./5.png">
-</p>
+<p align="center"><img src="./5.png"></p>
 
 From these details we can find that the destination range is **192.168.1.0/24**, the destination port is the default SSH port **22** and the number of hosts affected is **85**.
 
@@ -52,6 +46,6 @@ From these details we can find that the destination range is **192.168.1.0/24**,
 
 ### Flag
 
-```
+```text
 flag{192.168.1.0/24:22:85}
 ```

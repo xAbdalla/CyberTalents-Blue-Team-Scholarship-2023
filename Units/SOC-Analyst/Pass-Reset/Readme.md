@@ -1,9 +1,10 @@
 # Pass reset
 
 ## Description
+
 You have received the email below,  Please examine the email and answer the below questions
 
-**Follow the below format in order to submit the flag**
+### Follow the below format in order to submit the flag
 
 * X: The sender mail ID
 * Y: The date that user received the email (DD/MM/YYYY)
@@ -13,11 +14,13 @@ You have received the email below,  Please examine the email and answer the belo
 **Flag Format:** flag{X:Y:Z:W}
 
 ## Files
-passreset.msg.zip: https://hubchallenges.s3.eu-west-1.amazonaws.com/foren/passreset.msg.zip
+
+[passreset.msg.zip](./passreset.msg.zip)
 
 ## Solution
 
 ### Flag
-```
+
+```text
 flag{roger@captech.com:25/02/2022:attemplate.com:S}
 ```
